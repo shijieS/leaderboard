@@ -24,6 +24,10 @@ import sys
 import carla
 import signal
 
+sys.path.append("D:/ssj/github/carla/release/leaderboard")
+sys.path.append("D:/ssj/github/carla/release/CARLA_0.9.10.1-1/PythonAPI/carla")
+sys.path.append("D:/ssj/github/carla/release/scenario_runner")
+
 from srunner.scenariomanager.carla_data_provider import *
 from srunner.scenariomanager.timer import GameTime
 from srunner.scenariomanager.watchdog import Watchdog

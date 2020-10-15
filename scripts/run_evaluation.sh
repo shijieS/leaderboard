@@ -1,6 +1,6 @@
-#!/bin/bash
+#!C:/ProgramFiles/Git/usr/bin/bash.exe
 
-python3 ${LEADERBOARD_ROOT}/leaderboard/leaderboard_evaluator.py \
+python ${LEADERBOARD_ROOT}/leaderboard/leaderboard_evaluator.py \
 --scenarios=${SCENARIOS}  \
 --routes=${ROUTES} \
 --repetitions=${REPETITIONS} \
